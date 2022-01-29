@@ -13,6 +13,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Hello, world!</title>
   </head>
@@ -37,32 +43,15 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Themes</a>
               </li>
-              <li class="nav-item dropdown"></li>
 
               <li class="nav-item">
                 <a class="nav-link" href="#">Template</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  For More
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Classical</a></li>
-                  <li><a class="dropdown-item" href="#">Western</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Dance with us</a></li>
-                </ul>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="/Feedback.html">FeedBack</a>
               </li>
@@ -82,5 +71,451 @@
         </div>
       </nav>
     </div>
+    <!DOCTYPE html>
+    <html lang="en-us">
+      <head>
+        <meta charset="UTF-8" />
+        <title>GrapesJS</title>
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="./img/grapesjs-logo-2.png"
+        />
+        <meta property="og:url" content="http://grapesjs.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="GrapesJS" />
+        <meta name="theme-color" content="#9e5381" />
+        <meta
+          name="description"
+          content="Free and Open source Web Template Editor - Next generation tool for building templates without coding"
+        />
+        <meta
+          name="keywords"
+          content="site builder, web template editor, html builder, html editor"
+        />
+        <meta name="author" content="Artur Arseniev" />
+        <meta
+          property="og:description"
+          content="Free and Open source Web Template Editor - Next generation tool for building templates without coding"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="stylesheets/normalize.css"
+          media="screen"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link rel="stylesheet" type="text/css" href="stylesheets/animate.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/fw.min.css" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="stylesheets/stylesheet.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="stylesheets/github-light.css"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="stylesheets/font-awesome.css"
+        />
+
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous"
+        />
+
+        <!-- JavaScript Bundle with Popper -->
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"
+        ></script>
+      </head>
+      <body>
+        <!-- <div class="product-promo">
+      <a target="_blank" href="https://grapedrop.com" style="text-decoration: none">
+          <svg class="product-promo__logo" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+                    <stop stop-color="#EAB3D5" offset="0%"></stop>
+                    <stop stop-color="#D06E9A" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g>
+                    <circle fill="#FFFFFF" cx="251" cy="251" r="250"></circle>
+                    <path d="M244.664082,104.558858 L162.460627,248.205767 C145.186418,278.574619 143.852224,317.189676 162.460627,349.706818 C190.433829,398.588565 252.659,415.493783 301.444357,387.464755 C350.229714,359.436081 367.101474,297.087868 339.127919,248.205413 L256.924464,104.558858 C254.209082,99.813714 247.379111,99.813714 244.664082,104.558858 Z" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </svg>
+      </a>
+        Build and publish your projects online by using <a target="_blank" href="https://grapedrop.com">Grapedrop</a>
+    </div> -->
+        <section class="page-header">
+          <div class="width-all top-header">
+            <div class="columns">
+              <div class="column col-6 col-md-12 text-left column-logo">
+                <span class="logo-cont no-sel">
+                  <img
+                    class="top-logo-grapesjs"
+                    src="https://media.npr.org/assets/img/2010/07/19/new%20dollar%20sign-4_sq-979820f0e738a293955bc98fd56c831ae0ab1e95-s1100-c50.jpg"
+                  />
+                  Drag & Drop<span class="b-badge" style="display: none"
+                    >beta</span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--
+        <div class="title-cont">
+          <h1 class="project-name">
+            <svg class="grapesjs-logo" xmlns="http://www.w3.org/2000/svg" version="1"><g id="gjs-logo"><path d="M40 5l-12.9 7.4 -12.9 7.4c-1.4 0.8-2.7 2.3-3.7 3.9 -0.9 1.6-1.5 3.5-1.5 5.1v14.9 14.9c0 1.7 0.6 3.5 1.5 5.1 0.9 1.6 2.2 3.1 3.7 3.9l12.9 7.4 12.9 7.4c1.4 0.8 3.3 1.2 5.2 1.2 1.9 0 3.8-0.4 5.2-1.2l12.9-7.4 12.9-7.4c1.4-0.8 2.7-2.2 3.7-3.9 0.9-1.6 1.5-3.5 1.5-5.1v-14.9 -12.7c0-4.6-3.8-6-6.8-4.2l-28 16.2" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:8;stroke:#fff"/></g></svg>
+            GrapesJS
+            <span class="b-badge">beta</span>
+          </h1>
+        </div>
+      -->
+
+          <h2
+            class="project-tagline"
+            style="font-weight: bolder; font-style: italic"
+          >
+            Free and Open Source Web Builder Framework<br />
+            <span
+              >Next generation tool for building templates without coding</span
+            >
+          </h2>
+
+          <div class="btns-cont">
+            <a
+              href="./demo.html"
+              class="btn try btn-rnd"
+              style="font-style: italic; font-weight: bolder"
+              >COMPONENTS</a
+            >
+            <a
+              href="./demo-newsletter-editor.html"
+              class="btn try btn-rnd"
+              style="font-weight: bolder; font-style: italic"
+              >Newsletter Demo</a
+            >
+            <div class="device-small">
+              Sorry but your device is too small for the editor. See below for
+              more information
+            </div>
+          </div>
+
+          <div id="native-carbon"></div>
+          <script async type="text/javascript" src="./js/carbon.js?v3"></script>
+
+          <div class="bann-cont-c">
+            <div class="bann-cont">
+              <img
+                class="banner-img"
+                src="img/grapesjs-front-page-m.jpg"
+                alt="GrapesJS Webpage Demo"
+              />
+            </div>
+          </div>
+
+          <div class="ddown-c" style="display: none">
+            <div
+              class="ddown-icon-c animated fadeInDown scroll-link"
+              data-target=".what-sect"
+            >
+              <div id="ddown-icon" style="cursor: pointer">&lang;</div>
+            </div>
+          </div>
+
+          <div class="ddown-sharer">
+            <div>
+              <a
+                class="btn-share sh-tw tooltip"
+                data-tooltip="Tweet"
+                target="_blank"
+                href="https://twitter.com/intent/tweet?hashtags=grapesjs&ref_src=twsrc%5Etfw&text=GrapesJS%3A%20next%20generation%20tool%20for%20building%20templates%20without%20coding&tw_p=tweetbutton&url=http%3A%2F%2Fgrapesjs.com"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+              <a
+                class="btn-share sh-fb tooltip"
+                data-tooltip="Share"
+                target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrapesjs.com"
+                ><i class="fa fa-facebook-official" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section-container what-sect"
+          style="background-color: bisque"
+        >
+          <div class="width-all">
+            <h1 class="section-title primary-title"><b>What is it?</b></h1>
+            <div
+              class="section-content"
+              style="font-style: italic; font-weight: 400; font-weight: bolder"
+            >
+              Drag & Drop is an open-source, multi-purpose, Web Builder
+              Framework which combines different tools and features with the
+              goal to help you (or users of your application) to build HTML
+              templates without any knowledge of coding. It's a perfect solution
+              to replace the common WYSIWYG editors, which are good for content
+              editing but inappropriate for creating HTML structures. You can
+              see it in action with the
+              <a class="scroll-link" data-target=".logo-cont" href="##"
+                >official demos</a
+              >, but using its
+              <a
+                target="_blank"
+                href="https://github.com/artf/grapesjs/wiki/API-Reference"
+                >API</a
+              >
+              you're able to build your own editors.
+              <br />
+              <br />
+              If you're here just to build stuff faster, open and bookmark the
+              official demos and use them when you need it.
+
+              <div class="what-images">
+                <div class="what-image-cont what-image-cont1">
+                  <img
+                    class="what-image what-image1"
+                    src="https://mixkit.imgix.net/static/home/free-video-templates/free-final-cut-pro-templates.png?q=80&auto=format%2Ccompress"
+                    alt="GrapesJS Webpage Demo"
+                  />
+                </div>
+                <div class="what-image-cont what-image-cont2">
+                  <img
+                    class="what-image what-image2"
+                    src="https://www.litmus.com/wp-content/uploads/2021/01/hero.png"
+                    alt="GrapesJS Newsletter Demo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://source.unsplash.com/random/900x350/?computer development"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/random/900x350/?design computer templates"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://source.unsplash.com/random/900x350/?HTML CSS"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <section class="featured" style="background-color: cornsilk">
+          <div class="featured-title" style="font-weight: bolder">
+            FEATURED ON
+          </div>
+          <div class="featured-cards">
+            <div class="featured-card">
+              <img
+                class="featured-logo hn-logo"
+                src="https://static.langimg.com/thumb/msid-86549578,imgsize-13032,width-700,height-525,resizemode-75/navbharat-times.jpg"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="featured-card">
+              <img
+                class="featured-logo ph-logo"
+                src="https://techcrunch.com/wp-content/uploads/2021/01/facebook-earnings-2021.jpg"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="featured-card">
+              <img
+                class="featured-logo t3n-logo"
+                src="https://pbs.twimg.com/profile_images/1286311065966579713/JNU4bWC8_400x400.png"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="featured-card">
+              <img
+                class="featured-logo wdd-logo"
+                src="https://cdn.vox-cdn.com/thumbor/i0C3qiQdnEMAa7yFs_A-1K5Mygk=/0x0:3463x2304/1200x800/filters:focal(1455x875:2009x1429)/cdn.vox-cdn.com/uploads/chorus_image/image/67400635/1128855474.jpg.0.jpg"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="featured-card">
+              <img
+                class="featured-logo speckyboy-logo"
+                src="https://imageio.forbes.com/specials-images/imageserve/1170614091/Barclays-Bank-logo-seen-in-London---/960x0.jpg?fit=bounds&format=jpg&width=960"
+                width="150"
+                height="150"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="footer-content">
+          <div class="footer-c width-all">
+            <div class="title">
+              The project is still under development, so
+              <a
+                class="darker-link"
+                href="https://twitter.com/grapesjs"
+                target="_blank"
+                >stay tuned</a
+              >.
+              <br />
+              Being a free and open source project contributors and supporters
+              are extremely welcome.
+            </div>
+            <div class="btns-c">
+              <a class="btn btn-gjs" href="/docs/">Get Started</a>
+            </div>
+          </div>
+          <div class="madewith-c">
+            <span class="madewith"
+              >Site built with <br />
+              <span class="logo-bot-c"
+                ><img class="bot-logo-made" src="img/grapesjs-logo-cl.png" />
+                rapesJS</span
+              >
+            </span>
+          </div>
+        </section>
+
+        <section class="copyr-content">
+          <div class="copyr-c width-all">
+            made with
+            <span class="animated pulse infinite" style="display: inline-block"
+              >♥</span
+            >
+            by
+            <a class="darker-link" href="https://github.com/artf"
+              >Artur Arseniev</a
+            >
+          </div>
+        </section>
+
+        <script>
+          (function (i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+              i[r] ||
+              function () {
+                (i[r].q = i[r].q || []).push(arguments);
+              }),
+              (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+          })(
+            window,
+            document,
+            "script",
+            "//www.google-analytics.com/analytics.js",
+            "ga"
+          );
+
+          ga("create", "UA-74284223-1", "auto");
+          ga("send", "pageview");
+        </script>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/gifffer.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>
+    </html>
   </body>
 </html>
